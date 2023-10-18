@@ -30,12 +30,3 @@ class Bus:
         self.c = c
         return "The fare charge of " +self.name + ' is $' + str(self.c * 100)
 
-
-a=Vehicle('120','100000','bob','Jetta','VW')
-print(a.seating_capacity(5))
-print(a.fc(4))
-
-b = Bus('120','100000','bob','Jetta','VW')
-print(b.fc1)
-
-            
